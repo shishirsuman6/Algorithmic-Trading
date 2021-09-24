@@ -32,15 +32,16 @@ Bottomline: EWM Dual Crossover Strategy is marginally superior.
 
 ### Part 3 - Algorithmic Trading Analysis using a combination of two Trading Indicators: Stochastic Oscillator and Simple Moving Average  
 
-Create Stochastic Oscillator Model    
-1. Define %K Line number of periods   
-2. Calculate K Line  
-3. Define %D Line number of Periods  
-4. Calculate %D Line  
-5. Create Trading Signals  
-    IF %K LINE < 20 AND %D LINE < 20 AND %K LINE < %D LINE => BUY  
-
-    IF %K LINE > 80 AND %D LINE > 80 AND %K LINE > %D LINE => SELL  
+Create Stochastic Oscillator Model
+1. Define %K Line number of periods
+2. Calculate K Line
+3. Define %D Line number of Periods
+4. Calculate %D Line
+5. Create Trading Signal
+```
+IF %K LINE < 20 AND %D LINE < 20 AND %K LINE < %D LINE => BUY
+IF %K LINE > 80 AND %D LINE > 80 AND %K LINE > %D LINE => SELL
+```
 
 Add Simple Moving Average Trading Indicators  
 1. Define Short Window and Calculate Fast Indicator  
