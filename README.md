@@ -75,6 +75,23 @@ Some implementations require selective decision making upon observing a metric: 
 Parameter Sweep Exercise is costly from computation perspective. A high end GPU processor, mostly could based (AWS Sagemaker/Google Colab) could help to reduce the execution time. 
 Future Studies can be done to improve the two trading indicator model by adding a third one, most likely Relative Strength Index (RSI), and an ability to pre-smooth the curve.
 
+##  Bibliography/References
+
+### Stochastic Oscillator:
+https://medium.com/codex/algorithmic-trading-with-stochastic-oscillator-in-python-7e2bec49b60d  
+https://www.metastock.com/customer/resources/taaz/?p=106  
+### Dual Crossover SMA
+https://www.investopedia.com/articles/active-trading/052014/how-use-moving-average-buy-stocks.asp
+### Dual Crossover EWM
+https://www.statology.org/exponential-moving-average-pandas/  
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.ewm.html  
+### Sharpe Ratio
+https://www.investopedia.com/terms/s/sharperatio.asp  
+### Sortino Ratio
+https://www.investopedia.com/terms/s/sortinoratio.asp  
+https://therobusttrader.com/sortino-ratio/  
+
+
 
 
 
